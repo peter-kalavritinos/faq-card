@@ -54,7 +54,7 @@ footer {
 @media only screen and (max-width: 975px) {
     #card {
         flex-direction: column;
-        background-image: none;
+        background-image: url("./images/bg-pattern-mobile.svg");
         width: 325px;
         height: 100%;
         margin: 160px auto 0.8rem auto;
@@ -81,7 +81,7 @@ footer {
     h1 {
         text-align: center;
         padding-bottom: 1rem;
-        font-family: 'KumbhSans';
+        font-family: "Kumbh Sans", sans-serif;
     }
     #faq-part {
         padding: 0 0.5rem 0 0.5rem;
@@ -135,6 +135,7 @@ button.toggle-button:hover * {
 button.toggle-button * {
     transform: rotate(0deg);
     transition: transform 0.3s;
+    background: transparent, last-of-type;
 }
 
 .faq-heading {
