@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "KumbhSans";
     src: url("./fonts/KumbhSans-VariableFont_wght.ttf");
     font-weight: regular;
@@ -8,11 +8,13 @@
     font-family: "kumbhSans";
     src: url("./fonts/KumbhSans-VariableFont_wght.ttf");
     font-weight: bold;
-}
+}*/
 
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 body {
     background: rgb(101, 99, 232);
     background: linear-gradient( 0deg, hsl(240, 73%, 65%) 54%, hsl(273, 75%, 66%) 100%) no-repeat center center fixed;
+    font-family: "Kumbh Sans", sans-serif;
 }
 
 .answer {
@@ -41,6 +43,11 @@ body {
     overflow: hidden;
 }
 
+footer {
+    text-align: center;
+    margin-top: 300px;
+}
+
 
 /*-----------------MOBILE-------------------------*/
 
@@ -49,7 +56,7 @@ body {
         flex-direction: column;
         background-image: none;
         width: 325px;
-        height: 600px;
+        height: 100%;
         margin: 160px auto 0.8rem auto;
         padding: 0px 0 0 0;
     }
